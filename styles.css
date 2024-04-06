@@ -1,0 +1,59 @@
+body{
+    background-image: url("Form1.jpg");
+    font-size: larger;
+}
+  
+  #title, #description{
+    text-align: center;
+    font-family:Tahoma;
+    color:#05202D;
+  }
+  #survey-form{
+    background:linear-gradient(#0A5C83,#05202D);
+    padding:20px;
+    display:block;
+    width:20%;
+    min-width:800px;
+    max-width:1300px;
+    margin:auto;
+  }
+  #name-label{
+    margin:10px 0 10px 0;
+  }
+  input {
+    margin-bottom:10px;
+  }
+  #name, #email, #number {
+    padding:2px;
+    width:100%;
+    margin: 5px 0 10px auto;
+  }
+  label {
+    color:white;
+  }
+  #select {
+    width:100%;
+  }
+  /*input {
+    width:100%;
+  }*/
+  #textarea {
+    margin:10px auto 10px auto;
+    width:100%;
+  }
+  #dropdown {
+    width:100%;
+    margin: 4px auto 4px auto;
+  }
+  #radio {
+    width:100%;
+  }
+  #recomendation {
+    width:100%;
+    display:inline-block;
+    color:white;
+  }
+  #submit {
+    width:100%;
+    margin:auto;
+  }
